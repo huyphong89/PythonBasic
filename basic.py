@@ -10,6 +10,7 @@ print('Car 2 brand',car2.brand)
 print('Car 2 color',car2.brand)
 print(f"Car1- Brand {car1.brand} Color {car1.color}")
 print(f"Car2- Brand {car2.brand} Color {car2.color}")
+car3=Car("Mezd","blue")
 class Wallet:
     def __init__(self,balance):
         self.__balance=balance
